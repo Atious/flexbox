@@ -1,0 +1,28 @@
+
+body{
+	margin: 0; /*Removing margin from the page*/
+}
+.container{ /*flexbox start with display: flex;*/
+	display: flex;
+	flex-wrap: wrap; /*flex property enable item wrap*/
+	justify-content: center; /*justify-content: has center, flex-end, etc*/
+}
+
+h1{
+	/*font-family: fantasy;*/
+	font-size: 2em;
+   border-bottom: 2px solid orange;
+   border-right: 2px solid orange;
+   width: 300px;
+   text-align: center; /*Align to the center of the width above it*/
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s; /*CSS3 properties - All image properties transition over 1 sec*/ 
+}
+ img:hover {
+ 	 transform: scale(1.1); /*the transition should occur when hover and scale 1.1*/
+ }
